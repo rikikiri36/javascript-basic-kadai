@@ -1,5 +1,6 @@
 const calsquare = (num) =>{
-    console.log(num**2);
+    const result = num**2;
+    return result;
 }
 
-calsquare(11);
+console.log(calsquare(8));
